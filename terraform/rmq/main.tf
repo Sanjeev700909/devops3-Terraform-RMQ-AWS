@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "rmq" {
-    ami = "ami-07ebfd5b3428b6f4d"
+    ami = "ami-0038b92628b6b6291"
     instance_type = "t2.micro"
     key_name = "NewKey"
     vpc_security_group_ids = [ "sg-0165b85f9d9cdb796" ]
